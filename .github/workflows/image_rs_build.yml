@@ -44,7 +44,7 @@ jobs:
     runs-on: ${{ matrix.instance }}
     steps:
       - name: Code checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 1
 
